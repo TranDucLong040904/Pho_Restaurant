@@ -1,4 +1,9 @@
-# 🍜 Phở Restaurant - Website Giới thiệu và Thực đơn
+<div align="right">
+  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square&logo=github&logoColor=white&labelColor=000080" alt="English"></a>
+  <a href="README.vi.md"><img src="https://img.shields.io/badge/Tiếng_Việt-red?style=flat-square&color=C90000" alt="Tiếng Việt"></a>
+</div>
+
+# 🍜 Pho Restaurant - Introduction and Menu Website
 <div align="center">
 
 <div align="center">
@@ -13,101 +18,96 @@
 
 </div>
 
-## Giới thiệu chung
 
-**Phở Restaurant** là một **mini project web tĩnh** được thiết kế để giới thiệu tổng quan về món **Phở**—món ăn truyền thống nổi tiếng của Việt Nam. Trang web bao gồm các phần về lịch sử, cách chế biến, các biến thể vùng miền (Phở Hà Nội, Phở Nam Định), và một trang thực đơn đơn giản.
+## General Introduction
 
-Dự án này là một bài tập thực hành về **Front-end cơ bản**, tập trung vào kỹ năng thiết kế giao diện **một trang (One-Page Layout)**, sử dụng hiệu quả **HTML5** và thư viện **Bootstrap**.
+**Pho Restaurant** is a **mini static web project** designed to provide an overview of **Phở**—Vietnam's famous traditional dish. The website includes sections on its history, preparation, regional variations (Hanoi Pho, Nam Dinh Pho), and a simple menu page.
+
+This project serves as a basic **Front-end practice exercise**, focusing on **One-Page Layout** design skills, effectively utilizing **HTML5** and the **Bootstrap** library.
 
 ---
 
-## 👨‍💻 Về Tác Giả
+## 👨‍💻 About The Author
 
-Dự án được phát triển và duy trì bởi:
+The project is developed and maintained by:
 
-| Avatar | Thông tin | Liên hệ |
+| Avatar | Information | Contact |
 | :---: | :--- | :--- |
-| <img src="public\images\github_circle.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Trần Đức Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/TranDucLong040904)<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
+| <img src="static/images/github_circle.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Trần Đức Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/TranDucLong040904)<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
 
 ---
 
-## ✨ Tính năng nổi bật
+## ✨ Key Features
 
-* **📱 Thiết kế Responsive:** Sử dụng Bootstrap để đảm bảo giao diện hiển thị tốt trên nhiều kích thước màn hình.
-* **🌐 Giao diện một trang (One-Page Layout):** Thanh điều hướng cho phép di chuyển mượt mà đến các phần khác nhau trong cùng một trang (`#section1` đến `#section6`).
-* **🌗 Chế độ Sáng/Tối (Light/Dark Mode):** Nút chuyển đổi giao diện sử dụng thuộc tính `data-bs-theme` của Bootstrap (thực hiện bằng JavaScript).
-* **🛒 Form Giỏ hàng/Đặt hàng:** Trang `user.html` mô phỏng giao diện nhập thông tin người dùng và thanh toán (Checkout Form) theo phong cách W3Schools.
-* **🖼️ Hiệu ứng trực quan:**
-    * Sử dụng hình ảnh hấp dẫn về Phở và các thành phần.
-    * Hiệu ứng **ảnh xoay tròn** (CSS `animation: spin`) trong phần Giới thiệu.
+* **📱 Responsive Design:** Uses Bootstrap to ensure the interface displays well across various screen sizes.
+* **🌐 One-Page Layout:** The navigation bar allows smooth scrolling to different sections within the same page (`#section1` to `#section6`).
+* **🌗 Light/Dark Mode:** The interface toggle button utilizes Bootstrap's `data-bs-theme` attribute (implemented via JavaScript).
+* **🛒 Shopping Cart/Order Form:** The `user.html` page simulates a user information input and checkout form, inspired by the W3Schools style.
+* **🖼️ Visual Effects:**
+    * Uses attractive images of Pho and its components.
+    * Includes a **spinning image effect** (CSS `animation: spin`) in the Introduction section.
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Technologies Used
 
-| Công nghệ | Mô tả |
+| Technology | Description |
 | :--- | :--- |
-| **HTML5** | Cung cấp cấu trúc nội dung chính của trang web. |
-| **CSS3** | Tùy chỉnh kiểu dáng, màu sắc và tạo hiệu ứng (ví dụ: hiệu ứng xoay). |
-| **Bootstrap 5** | Thư viện CSS/JS chính giúp xây dựng layout, hệ thống lưới (`row`/`col`), và đảm bảo tính Responsive. |
-| **JavaScript (Vanilla JS)** | Xử lý các tương tác cơ bản (chuyển đổi sáng/tối, tăng/giảm số lượng sản phẩm trong modal). |
+| **HTML5** | Provides the main content structure of the website. |
+| **CSS3** | Customizes styling, colors, and creates effects (e.g., spinning effect). |
+| **Bootstrap 5** | The core CSS/JS library for building layout, grid system (`row`/`col`), and ensuring Responsiveness. |
+| **JavaScript (Vanilla JS)** | Handles basic interactions (switching light/dark mode, increasing/decreasing product quantity in modal). |
 
 ---
 
-## 📂 Cấu trúc Mã nguồn (Code Tree)
-
-Dự án được tổ chức theo cấu trúc thư mục tiêu chuẩn cho dự án Web Front-end:
+## 📂 Source Code Structure (Code Tree)
 
 ```text
 
-│   index.html          # Trang chủ: Giới thiệu Phở, Lịch sử, Chế biến, Thực đơn, Địa chỉ (One-Page)
-│   README.md           # File này
-│   user.html           # Trang Giỏ hàng/Checkout Form
+│   index.html          # Homepage: Pho Introduction, History, Preparation, Menu, Location (One-Page)
+│   README.md           # This file
+│   user.html           # Shopping Cart/Checkout Form Page
 │
 └───static
-    ├───css
-    │   ├── bootstrap.css   # File Bootstrap (được tùy chỉnh nếu có)
-    │   └── style.css       # File CSS tùy chỉnh (chứa các style đặc thù, hiệu ứng xoay)
-    │
-    ├───images          # Ảnh minh họa món ăn, logo, và các biến thể Phở
-    │   └── ... (.png, .jpg)
-    │
-    └───js
-        ├── bootstrap.js    # File JavaScript của Bootstrap
-        └── main.js         # File JavaScript tùy chỉnh (chứa logic chuyển đổi mode, tăng/giảm số lượng)
+    ├───css
+    │   ├── bootstrap.css   # Bootstrap File (customized if any)
+    │   └── style.css       # Custom CSS file (contains specific styles, spinning effect)
+    │
+    ├───images          # Images for dishes, logo, and Pho variations
+    │   └── ... (.png, .jpg)
+    │
+    └───js
+        ├── bootstrap.js    # Bootstrap JavaScript File
+        └── main.js         # Custom JavaScript File (contains mode switch logic, quantity adjustment)
+```
+
+## 🚀 Setup & Run Instructions
+Since this is a static web project, setup and running is very simple:
+```bash
+# 1. Clone the repository to your computer:
+git clone https://github.com/TranDucLong040904/Pho_Restaurant.git
+
+# 2. Open the cloned directory.
+# 3. Open the index.html file with any modern web browser (Chrome, Firefox, Edge...).
+# 4. To check the Shopping Cart page, open user.html.
 ```
 ---
 
-## 🚀 Hướng dẫn Cài đặt & Chạy Project
-Do đây là một dự án web tĩnh, việc cài đặt và chạy rất đơn giản:
+## 📝 Main Website Content
+The website content is divided into main sections:
 
-1. Clone repository về máy tính của bạn.
+#section1: Homepage / Pho (General introduction to Pho).
 
-```
-Bash
+#section2: News / History of Formation (Origins in Hanoi/Nam Dinh).
 
-git clone https://github.com/TranDucLong040904/Pho_Restaurant.git
-```
-2. Mở thư mục vừa clone.
+#section3: Preparation (Focuses on the broth cooking process).
 
-3. Mở file index.html bằng bất kỳ trình duyệt web hiện đại nào (Chrome, Firefox, Edge...).
+#section4: Variations (Comparison between Hanoi Pho and Nam Dinh Beef Pho).
 
-4. Để kiểm tra trang Giỏ hàng, mở file user.html.
+#section5: Menu (Displays dishes: Rare Beef, Flank/Brisket, Special).
 
-## 📝 Nội dung Chính của Website
-Nội dung trang web được chia thành các phần chính:
+#section6: Location (Embeds Google Maps).
+---
 
-#section1: Trang Chủ / Phở (Giới thiệu chung về Phở).
-
-#section2: Tin Tức / Lịch Sử Hình Thành (Nguồn gốc tại Hà Nội/Nam Định).
-
-#section3: Chế Biến (Tập trung vào công đoạn nấu nước dùng).
-
-#section4: Biến Tấu (So sánh Phở Hà Nội và Phở bò Nam Định).
-
-#section5: Thực Đơn (Hiển thị các món: Tái Lăn, Nạm/Gầu, Đặc Biệt).
-
-#section6: Địa Chỉ (Nhúng bản đồ Google Maps).
-
-## 📜 Giấy phép (License)
-Dự án này được cung cấp miễn phí sử dụng cho mục đích học tập và tham khảo cá nhân trong quá trình học tập môn học.
+## 📜 License
+This project is provided free of charge for personal study and reference purposes during academic coursework.
