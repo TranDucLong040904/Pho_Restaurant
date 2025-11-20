@@ -1,4 +1,17 @@
 # 🍜 Phở Restaurant - Website Giới thiệu và Thực đơn
+<div align="center">
+
+<div align="center">
+
+![Repo Size](https://img.shields.io/github/repo-size/TranDucLong040904/Project_PHP_Laravel?style=flat-square&label=Size&color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/TranDucLong040904/Project_PHP_Laravel?style=flat-square&label=Last%20Commit&color=blue)
+![Commit Activity](https://img.shields.io/github/commit-activity/y/TranDucLong040904/Project_PHP_Laravel?style=flat-square&label=Commits/Year&color=red)
+![Stars](https://img.shields.io/github/stars/TranDucLong040904/Project_PHP_Laravel?style=flat-square&color=yellow)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg?style=flat-square)](https://github.com/TranDucLong040904)
+
+</div>
+
+</div>
 
 ## Giới thiệu chung
 
@@ -6,7 +19,15 @@
 
 Dự án này là một bài tập thực hành về **Front-end cơ bản**, tập trung vào kỹ năng thiết kế giao diện **một trang (One-Page Layout)**, sử dụng hiệu quả **HTML5** và thư viện **Bootstrap**.
 
+---
 
+## 👨‍💻 Về Tác Giả
+
+Dự án được phát triển và duy trì bởi:
+
+| Avatar | Thông tin | Liên hệ |
+| :---: | :--- | :--- |
+| <img src="public\images\github_circle.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Trần Đức Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/TranDucLong040904)<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
 
 ---
 
